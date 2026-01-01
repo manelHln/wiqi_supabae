@@ -279,7 +279,7 @@ skip_nonce_check = false
 
 [auth.external.google]
 enabled = true
-client_id = "env(PLASMO_PUBLIC_SUPABASE_AUTH_GOOGLE_CLIENT_ID)"
+client_id = "env(SUPABASE_AUTH_GOOGLE_CLIENT_ID)"
 secret = "env(SUPABASE_AUTH_EXTERNAL_GOOGLE_CLIENT_SECRET)"
 skip_nonce_check = false
 
